@@ -9,8 +9,11 @@ public class View {
     public void printToy(Toy toy){
         System.out.println(toy);
     }
-    public void printToyStore(Prizelist prizelist){
+    public void printPrizeToys(Prizelist prizelist){
         System.out.println(prizelist);
+    }
+    public void printToyStore(ToyStore toyStore){
+        System.out.println(toyStore);
     }
 
 }
